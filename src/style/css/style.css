@@ -1,0 +1,540 @@
+body,html{
+
+    -webkit-user-select:text;
+    -ms-user-select: text;
+
+}
+body .toastBox{
+    z-index: 9999
+}
+.index-head {
+    width: 100%;
+    height: 70px;
+    /*height: 8%;*/
+    background: #d31145;
+    position: relative;
+}
+
+.index-head>.logo {
+    width: 40%;
+    height: 70px;
+    background: url(../images/logo.png) no-repeat center center;
+    /* background-size: 90%; */
+    float: left;
+}
+
+.index-head>.right-user {
+    width: 60%;
+    height: 70px;
+    float: left;
+    color: #fff;
+    font-size: 18px;
+    line-height: 70px;
+}
+.index-head>.right-user i {
+    cursor: pointer;
+}
+.head-user {
+    position: absolute;
+    top: 19px;
+    right: 15px;
+    line-height: 32px;
+    height: 32px;
+    font-size: 14px;
+}
+
+.user-photo {
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    border-radius: 16px;
+    display: block;
+    float: left;
+    overflow: hidden
+}
+
+.user-name {
+    padding: 0 10px;
+}
+
+.user-name a {
+    color: #afafaf;
+}
+
+.user-name a:hover {
+    color: #d31145;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden
+}
+
+.content-right {
+    width: 80%;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.breadcrumb {
+    width: 80%;
+    float: right;
+}
+
+.list {
+    width: 20%;
+    float: left;
+    /*padding-bottom: 9999px;*/
+    /*margin-bottom:-9999px; */
+    background: #fff;
+}
+
+.list ul li {
+    background-color: #C51141;
+}
+
+.list ul li a {
+    padding-left: 20px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.list ul li .inactive {
+    background: url(../images/off.png) no-repeat 90% center;
+    /*color: #4a4a4a;*/
+    /*background-color: #fff;*/
+}
+
+.list ul li .inactives {
+    background: url(../images/on.png) no-repeat 90% center;
+    color: #fff;
+}
+
+.list ul li ul {
+    display: none;
+}
+
+.list ul li ul li {
+    border-left: 0;
+    border-right: 0;
+    background-color: #fff;
+}
+
+.list ul li ul li ul {
+    display: none;
+}
+
+.list ul li ul li a {
+    padding-left: 30px;
+    color: #4a4a4a;
+}
+
+.list ul li ul li .inactives {
+    padding-left: 30px;
+    color: #d31145;
+}
+
+.list ul li ul li ul li {
+    background-color: #fff;
+}
+
+.last {
+    background-color: #d6e6f1;
+    border-color: #6196bb;
+}
+
+.list ul li ul li ul li a {
+    color: #8c8c8c;
+    padding-left: 50px;
+    font-weight: normal
+}
+
+.list ul li ul li ul li .cc {
+    color: #d31145;
+    background: #eef1f5;
+}
+
+.content-right>.tab {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    line-height: 40px;
+    padding-left: 20px;
+    color: #8c8c8c;
+}
+
+.breadcrumb>.tab {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    line-height: 40px;
+    padding-left: 20px;
+    color: #8c8c8c;
+}
+
+.content-right>.tab span {
+    color: #4a4a4a;
+}
+
+.content-right>.main1 {
+    width: 96%;
+    margin: 2% 2% 0;
+    background: #fff;
+    float: left;
+}
+
+.content-right>.main1>.title {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 15px;
+    border-bottom: 1px solid #EBEFF4;
+    font-size: 18px;
+}
+
+.content-right>.main1>.box1 {
+    width: 100%;
+    height: auto;
+    line-height: 33px;
+    padding: 15px;
+    float: left;
+    display: block
+}
+
+.content-right>.main1>.box1 label {
+    padding: 0 8px 0 15px;
+}
+
+.content-right>.main1>.box1 label>b {
+    color: #EC544C;
+}
+
+.content-right>.main1>.box2 {
+    width: 100%;
+    height: auto;
+    line-height: 33px;
+    padding: 15px;
+    float: left;
+    display: block
+}
+
+.content-right>.main1>.box2 label {
+    padding: 0 8px 0 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    min-width: 120px;
+}
+
+.content-right>.main1>.box2 label>b {
+    color: #EC544C;
+}
+
+
+
+.btn-main {
+    width: 100%;
+    height: auto;
+    clear: both;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn-main-right {
+    width: 96%;
+    text-align: right;
+    margin: 1% 2%;
+}
+
+.button-green {
+    border: 1px solid #003473 !important;
+    color: #003473;
+    font-size: 14px;
+}
+
+.button-green:hover {
+    border: 1px solid #f1f1f1 !important;
+    background: #f1f1f1;
+    color: #8c8c8c;
+}
+
+.table1 {
+    width: 100%;
+}
+
+.table1 th {
+    background: #DFEDF9;
+    color: #4a4a4a;
+    font-size: 15px;
+    padding: 5px 10px;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 900;
+}
+
+.table1 td {
+    color: #4a4a4a;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 10px;
+}
+
+.table1 td a {
+    font-size: 12px;
+    border: 1px solid #E1E5EC;
+    color: #659BE0;
+    border-radius: 3px;
+    padding: 3px 10px;
+    margin: 0 5px 3px 0;
+}
+
+.table1 td a:hover,
+.table1 td a:active,
+.table1 td a.active {
+    background: #003473;
+    color: #fff;
+}
+
+table tr:nth-child(odd) {
+    background: #F6F9FB;
+}
+
+.table1 td span {
+    color: #d31145;
+}
+
+.box2 dl {
+    width: 100%;
+    height: auto;
+    margin: 7px auto;
+    float: left
+}
+
+.box2 dl dt {
+    width: 25%;
+    height: auto;
+    line-height: 33px;
+    float: left;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.box2 dl dd {
+    width: 75%;
+    height: auto;
+    line-height: 25px;
+    float: left;
+    /* text-align: right; */
+    padding-right: 15px;
+}
+
+.width70 {
+    width: 75%;
+}
+
+.width60 {
+    width: 60%;
+}
+
+.width50 {
+    width: 50%;
+}
+
+.width40 {
+    width: 40%;
+}
+
+.width30 {
+    width: 30%;
+}
+
+.width20 {
+    width: 20%;
+}
+
+.width15 {
+    width: 15%;
+}
+
+.width10 {
+    width: 10%;
+}
+
+.box2 dl dt b {
+    color: #EC544C;
+}
+h1{margin: 0!important}
+
+/* 预约管理-修改 样式 */
+
+.manage {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.manage dl {
+    width: 100%;
+    height: auto;
+    float: left;
+    line-height: 32px;
+    white-space: nowrap;
+    padding-left: 10px;
+}
+
+.manage dl dt {
+    width: 12%;
+    height: auto;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.manage dl dd {
+    width: 12%;
+    height: auto;
+    float: left;
+    text-align: left;
+}
+
+.manage ul {
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+.manage ul li {
+    width: 100%;
+    height: auto;
+    line-height: 32px;
+    white-space: nowrap;
+    padding-left: 10px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.manage ul li label {
+    width: 12%;
+    height: auto;
+    line-height: 32px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.position-img {
+    margin-left: -30px;
+    top: -2px;
+    z-index: 11111;
+    position: relative
+}
+
+.table-main {
+    width: 100%;
+    height: auto;
+    padding: 5px 25px 25px;
+}
+
+.table-main h1 {
+    font-size: 16px;
+    color: #73A7E3;
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+.table-overflow {
+    width: 100%;
+    height: auto;
+    white-space: nowrap;
+    overflow-x: auto
+}
+
+.reveal-modal-title {
+    width: 100%;
+    line-height: 40px;
+    font-weight: 900
+}
+
+.reveal-modal-main {
+    width: 100%;
+    border: 1px solid #E7ECF1;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 112px;
+    padding: 10px;
+    overflow-y: auto
+}
+
+.reveal-modal-main dl {
+    width: 20%;
+    float: left;
+    line-height: 24px;
+}
+
+.reveal-modal-main dl dt {
+    width: 30%;
+    float: left;
+    text-align: right;
+    line-height: 30px;
+}
+
+.reveal-modal-main dl dt input[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+}
+
+.reveal-modal-main dl dd {
+    width: 70%;
+    float: left;
+    /*padding-left: 10px;*/
+}
+
+.reveal-modal-del {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 120px;
+}
+
+
+/* tab切换 样式 */
+
+.ls_index {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    overflow: hidden;
+}
+
+.ls_index li {
+    float: left;
+    padding-left: 25px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.ls_index li span {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.ls_index li .ico_none {}
+
+.ls_index li.active span {
+    color: #4A4A4A;
+    font-weight: 500;
+    border-bottom: 2px solid #d31145;
+}
+
+.ls_index li.normal span {
+    color: #8C8C8C;
+}

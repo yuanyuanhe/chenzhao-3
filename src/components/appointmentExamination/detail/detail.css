@@ -1,0 +1,10 @@
+.appdetail{
+	-webkit-user-select:text;
+	-ms-user-select: text;
+}
+.Space{
+	width:  80px !important;
+}
+.Spaces{
+	width:  50px !important;
+}

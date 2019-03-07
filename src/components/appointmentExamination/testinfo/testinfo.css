@@ -1,0 +1,7 @@
+.detailUl li label span{
+	width: 150px
+}
+.testinfo{
+	-webkit-user-select:text;
+	-ms-user-select: text;
+}

@@ -1,0 +1,8 @@
+
+.ant-time-picker-input{
+	margin-left: 20px;
+    height:31px;
+}
+#edIt .ant-time-picker-input{
+	transition:all 0s;
+}

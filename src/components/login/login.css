@@ -1,0 +1,32 @@
+.logingo-server {
+    position: fixed;
+    left: 25%;
+    top: 25%;
+    height: 420px;
+    width: 700px;
+    border: 1px solid brown;
+}
+.logingo-server .left {
+	height: 420px;
+}
+.right {
+	height: 420px;
+}
+.left img{
+	height: 150px;
+	width: 150px;
+	margin-left: 50px;
+	margin-top: 130px;
+}
+.logingo-server .right{
+	margin-left: 80px;
+	width: 310px;
+}
+
+.logingo-server button{
+	width: 280px;
+}
+
+.logingo-server select{
+	width: 174px;
+}

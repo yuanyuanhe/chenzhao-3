@@ -1,0 +1,9 @@
+.notfound {
+    color:#d31145;
+    position: fixed;
+    left: 60%;
+    top: 50%;
+    z-index: 11;
+    font-size: 20px;
+    line-height: 34px;
+}

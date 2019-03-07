@@ -1,0 +1,36 @@
+#contectM .main {
+	height: 400px;
+	overflow: scroll;
+}
+#contectM  {
+	height: 500px;
+
+}
+#contectM .m-t-2{
+	margin-top:10px 
+}
+.hides{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    background: rgba(0,0,0,.8);
+    z-index: 100;
+    display: none;
+    top: 0;
+    left: 0;
+}
+.quxiao{
+    font-size: 22px;
+    line-height: .5;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #fff;
+    text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+    font-weight: bold;
+    cursor: pointer;
+}
+#contectMs{
+	top:300px !important;
+}

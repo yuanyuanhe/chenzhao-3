@@ -1,0 +1,11 @@
+.inputImg {
+    margin-left: -30px;
+    top: -2px;
+    z-index: 999;
+    position: relative
+}
+
+.manage ul li label{
+    width: auto !important
+}
+

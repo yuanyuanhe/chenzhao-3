@@ -1,0 +1,28 @@
+.add-btn {
+    margin: 10px;
+}
+
+.ant-time-picker {
+    display: inline;
+}
+
+.ant-time-picker input {
+    width: 17%;
+}
+
+.fl {
+    padding: 0 8px 0 15px;
+    margin-bottom: 10px;
+}
+
+input[type='radio'] {
+    margin: 10px;
+}
+
+#partyImage{
+	height: 30px;
+	width: 30px;
+}
+#xiangmu{
+	height: 600px
+}

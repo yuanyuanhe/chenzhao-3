@@ -1,0 +1,29 @@
+{
+  "name": "aia_mms_pc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.1.0",
+    "axios": "^0.18.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-iframe": "^1.1.0",
+    "react-pdf": "^3.0.5",
+    "react-pdf-js": "^3.0.7",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "react-simple-toast": "^1.0.10",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "react-scripts": "1.1.1"
+  },
+  "homepage": "./",
+  "scripts": {
+    "start": "react-scripts start --env=jsdom",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

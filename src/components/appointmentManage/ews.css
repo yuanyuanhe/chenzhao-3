@@ -1,0 +1,23 @@
+#ews{
+	-webkit-user-select:text;
+	-ms-user-select: text;
+}
+
+.manage dl dt {
+	text-align: left !important;
+	margin-left: 5px
+}
+.manage  dt {
+	width: 20%!important
+}
+/*.manage  dd {
+	width: 12%!important
+}
+.manage  dl {
+	width: 100%!important
+}*/
+#zldetail{
+	-webkit-user-select:text;
+	-ms-user-select: text;
+
+}

@@ -1,0 +1,14 @@
+#tjxm .xiangmu{
+	height: 350px;
+}
+#tjxm .xiangmu dl{
+	width:33.3%
+}
+#tjxm .xiangmu dl dd{
+	height: 44px;
+	white-space: normal;
+} 
+#tjxm .reveal-modal{
+	width: 800px;
+	margin-left: -405px;
+}
